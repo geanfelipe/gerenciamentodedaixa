@@ -24,7 +24,7 @@ python get-pip.py
 
 
 
-**5. Execute pip install -r requirements.txt 
+**5. Execute pip install -r requirements.txt**
 
 
 
