@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from django.conf import settings
-import controle.views
+import caixa.views
 
 urlpatterns = patterns('',
     # Examples:
@@ -9,8 +9,8 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    #url(r'^$', controle.views.hello,name='home'),
-    url(r'^$', include('controle.urls')),
+    url(r'^$', caixa.views.hello,name='home'),
+    url(r'^caixa/', include('caixa.urls')),
 
 )
 
