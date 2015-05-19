@@ -1,4 +1,4 @@
-# ONG 
+# GERENCIADOR DE CAIXA 
 ## Para rodar este projeto na sua máquina:
 *prose.io*
 
